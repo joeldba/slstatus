@@ -63,9 +63,9 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-	{ ram_perc,  "  RAM: %s%%  -  ", 		   	      NULL },	
-	{ disk_free, "SSD: %sB  -  ",      "/" 			   },	
-	{ wifi_perc, " Net: %3s%%  -  ",   "wlp0s20f0u9"	 },
-	{ run_command, "Vol: %s  -  ",    "pulsemixer --get-volume"  },
+	{ ram_perc,  "  RAM: %s%% - ", 		   	      NULL },	
+	{ disk_free, "SSD: %sB - ",      "/" 			   },	
+	{ wifi_perc, "Net: %3s%% - ",   "wlp0s20f0u9"	 },
+	{ run_command, "Vol: %s - ",    "pulsemixer --get-volume"  },
 	{ datetime, "%s",           	 "%a %b %d %r  " 	   },
 };
