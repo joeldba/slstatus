@@ -67,7 +67,7 @@ static const struct arg args[] = {
 	{ ram_perc,  "  %s%%  |  ", 		   	      NULL },	
 	{ disk_free, "  %sB  |  ",      "/" 			   },	
 	{ wifi_perc, "  %3s%%  |  ",   "wlp0s20f0u9"	 },
-	{ run_command, "  %s  |  ", 	     "checkupdates"  },
+	{ run_command, "  %s updates  |  ", 	     "checkupdates | wc -l"  },
 	{ run_command, "  %s  |  ",    "pulsemixer --get-volume"  },
 	{ datetime, "  %s",           	 "%a, %b %d %r " 	   },
 
