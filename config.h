@@ -64,12 +64,11 @@ static const char unknown_str[] = "n/a";
 static const struct arg args[] = {
 	/* function format          argument */
 	{ kernel_release, "   %s  |  ",		      NULL }, 
-	{ uptime, "  %s  |  ",				      NULL },
-	{ run_command, "  %s updates  |  ",	     "checkupdates | wc -l"  }, 
+	{ uptime, "  %s  |  ",				      NULL },
 	{ disk_free, "  %sB  |  ",      "/" 			   },	
 	{ cpu_perc,  "  %s%%  |  ",		              NULL },
-	{ ram_perc,  "  %s%%  |  ", 		   	      NULL },	
-	{ wifi_perc, "  %3s%%  |  ",   "wlp0s20f0u9"	 },
+	{ ram_perc,  "  %s%%  |  ", 		   	      NULL },	
+	{ wifi_perc, "  %3s%%  |  ",   "wlx1cbfce1fd906"	 },
 	{ run_command, "  %s  |  ",    "pulsemixer --get-volume"  },
 	{ datetime, "  %s",           	 "%b %d, %Y %r " 	   },
 
