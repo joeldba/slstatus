@@ -1,4 +1,4 @@
 # Prerequisites
-* ttf-font-awesome - provides icons for each module
+* ttf-font-awesome - provides pretty icons for each module
 * pulsemixer - volume levels
 * freetype2
