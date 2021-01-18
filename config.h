@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* interval between updates (in ms) */
-const unsigned int interval = 1000;
+const unsigned int interval = 10000;
 
 /* text to show if no value can be retrieved */
 static const char unknown_str[] = "n/a";
@@ -71,6 +71,6 @@ static const struct arg args[] = {
 	{ wifi_perc, "  %3s%%  |  ",   "wlp0s20f0u9"	 },
 	{ run_command, "  %s  |  ",    "pulsemixer --get-volume"  },
 	{ run_command, "  %s  |  ",    "curl http://wttr.in/Washington?format=%t%20%C" },
-	{ datetime, "  %s",           	 "%b %d, %Y %r " 	   },
+	{ datetime, "  %s",           	 "%b %d, %Y %l:%M %p " 	   },
 
 };
