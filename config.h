@@ -70,6 +70,7 @@ static const struct arg args[] = {
 	{ ram_perc,  "  %s%%  |  ", 		   	      NULL },	
 	{ wifi_perc, "  %3s%%  |  ",   "wlp0s20f0u9"	 },
 	{ run_command, "  %s  |  ",    "pulsemixer --get-volume"  },
+	{ run_command, "  %s  |  ",    "curl http://wttr.in/Washington?format=%t%20%C" },
 	{ datetime, "  %s",           	 "%b %d, %Y %r " 	   },
 
 };
