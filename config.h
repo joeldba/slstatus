@@ -65,6 +65,7 @@ static const struct arg args[] = {
 	/* function format          argument */
 	{ kernel_release, "   %s  |  ",		      NULL }, 
 	{ uptime, "  %s  |  ",				      NULL },
+	{ run_command, "  %s updates  |  ",	"checkupdates | wc -l"	},
 	{ disk_free, "  %sB  |  ",      "/" 			   },	
 	{ cpu_perc,  "  %s%%  |  ",		              NULL },
 	{ ram_perc,  "  %s%%  |  ", 		   	      NULL },	
