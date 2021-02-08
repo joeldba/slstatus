@@ -63,15 +63,15 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-	{ kernel_release, "   %s  |  ",		      NULL }, 
-	{ uptime, "  %s  |  ",				      NULL },
-	{ run_command, "  %s updates  |  ",	"checkupdates | wc -l"	},
-	{ disk_free, "  %sB  |  ",      "/" 			   },	
-	{ cpu_perc,  "  %s%%  |  ",		              NULL },
-	{ ram_perc,  "  %s%%  |  ", 		   	      NULL },	
-	{ wifi_perc, "  %3s%%  |  ",   "wlp0s20f0u9"	 },
-	{ run_command, "  %s  |  ",    "pulsemixer --get-volume"  },
-	{ run_command, "  %s  |  ",    "curl http://wttr.in/Washington?format=%t%20%C" },
-	{ datetime, "  %s",           	 "%b %d, %Y %l:%M %p " 	   },
+	{ kernel_release, "  %s | ",		      NULL }, 
+	{ uptime, " %s | ",				      NULL },
+	{ run_command, " %s updates | ",	"checkupdates | wc -l"	},
+	{ disk_free, " %sB | ",      "/" 			   },	
+	{ cpu_perc,  " %s%% | ",		              NULL },
+	{ ram_perc,  " %s%% | ", 		   	      NULL },	
+	{ wifi_perc, " %3s%% | ",   "wlp0s20f0u9"	 },
+	{ run_command, " %s | ",    "pulsemixer --get-volume"  },
+	{ run_command, " %s | ",    "curl http://wttr.in/Washington?format=%t%20%C" },
+	{ datetime, " %s",           	 "%b %d, %Y %l:%M %p " 	   },
 
 };
