@@ -1,5 +1,5 @@
 # Prerequisites
 * ttf-font-awesome - provides pretty icons for each module
-* pacman-contrib (if you're running Arch) - required for the update indicator module
+* mpc - prints song artist & title if mpd is installed and configured
 * pulsemixer - volume levels
 * freetype2
