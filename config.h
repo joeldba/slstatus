@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* interval between updates (in ms) */
-const unsigned int interval = 10000;
+const unsigned int interval = 5000;
 
 /* text to show if no value can be retrieved */
 static const char unknown_str[] = "n/a";
@@ -63,6 +63,7 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
+	{ run_command, "  %s  /  ",	 "mpc current"		   }, 
 	{ disk_free, "  %sB  /  ",      "/" 			   },	
 	{ wifi_perc, "  %3s%%  /  ",   "wlp0s20f0u9"	 },
 	{ run_command, "  %s  /  ",    "pulsemixer --get-volume"  },
