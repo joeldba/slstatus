@@ -63,10 +63,10 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-	{ run_command, "  %s  /  ",	 "mpc current"		   }, 
-	{ disk_free, "  %sB  /  ",      "/" 			   },	
-	{ wifi_perc, "  %3s%%  /  ",   "wlp0s20f0u9"	 },
-	{ run_command, "  %s  /  ",    "pulsemixer --get-volume"  },
-	{ datetime, "  %s",           	 "%b %d, %Y %l:%M %p " 	   },
+	{ run_command, "   %s  |  ",	 "mpc current"		   }, 
+/*	{ disk_free, "  %sB  |  ",      "/" 			   }, */
+	{ wifi_essid, "  %s  |  ",   "wlp0s20f0u9"    }, 
+	{ run_command, "  %s  |  ",    "pulsemixer --get-volume"  },
+	{ datetime, "  %s",           	 "%b %d %l:%M %p " 	   },
 
 };
